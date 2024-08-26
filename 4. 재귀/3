@@ -1,0 +1,5 @@
+Alg quotient(a,b)
+	if(a>=b)
+		return 1 + quotient(1-b,b)
+	else
+		return 0

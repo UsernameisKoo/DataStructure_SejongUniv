@@ -1,0 +1,5 @@
+Alg modulo(a,b)
+	if(a<=b)
+		return modulo(a-b,b)
+	else
+		return a
